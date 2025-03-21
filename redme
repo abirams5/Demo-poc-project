@@ -1,0 +1,15 @@
+To run this project 
+=========================================================================
+install node 
+after installing node version using 
+    node -v
+install Vs Code 
+    open terminal -> new terminal
+    in terminal 
+        cd node-firebase-auth
+        install node_modules using 
+            npm i 
+        command and then run the project using 
+            node server.js
+
+=========================================================================

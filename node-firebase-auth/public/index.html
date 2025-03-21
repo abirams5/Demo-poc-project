@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Authentication</h2>
+
+        <!-- Login Form -->
+        <div id="loginPage" class="form-container">
+            <form id="loginForm">
+                <h3>Login</h3>
+                <input type="email" id="loginEmail" placeholder="Email" required />
+                <input type="password" id="loginPassword" placeholder="Password" required />
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="showRegister">Sign Up</a></p>
+        </div>
+
+        <!-- Registration Form -->
+        <div id="registerPage" class="form-container" style="display: none;">
+            <form id="registerForm">
+                <h3>Register</h3>
+                <input type="text" id="regUsername" placeholder="Username" required />
+                <input type="email" id="regEmail" placeholder="Email" required />
+                <input type="password" id="regPassword" placeholder="Password" required />
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="showLogin">Login</a></p>
+        </div>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
