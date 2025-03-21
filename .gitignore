@@ -1,0 +1,17 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build artifacts
+/dist/
+/build/
+
+# Ignore environment variables
+.env
+.env.local
+.env.production
+
+# Ignore Firebase keys or service account files
+/node-firebase-auth/serviceAccountKey.json
+
+# Ignore log files
+*.log
